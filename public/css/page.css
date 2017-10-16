@@ -1,0 +1,101 @@
+/*#carousel-message{
+	background-color: white;
+}*/
+
+.top-logo{
+	max-width:35%;
+	max-height:35%;
+	position:relative;
+	left:-20%;
+	top:80%;
+}
+
+#social-top{
+	color:#bf0000;
+	position:relative;
+	left:45%;
+	top:-130px;
+}
+
+.social-link i{
+	position:relative;
+	left:20%;
+	width:40px;
+	height:40px;
+	background-color: #bf0000;
+	padding-top: 5px;
+	border-radius:5px;
+}
+
+a .fa{
+	color:white;
+	font-size: 2rem;
+}
+
+#navbar-form{
+	clear:both;
+	margin-bottom:10px;
+	margin-left:10px;
+}
+
+#navbar-form input{
+	border-radius:3px;
+	text-align: center;
+	border:2px solid lightgray;
+	color:#00234C;
+	width:250px;
+}
+
+#navbar-form button{
+	height:31px;
+	margin-bottom:2px;
+	border-radius:3px;
+	line-height:12px;
+	background-color: #bf0000;
+	border:1px solid #bf0000;
+	color:white;
+	font-weight: bold;
+}
+
+#navbar-links{
+	background-color:white;
+}
+
+a.nav-link.text-uppercase.text-expanded{
+	font-weight:700;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link{
+	color:#bf0000;
+}
+
+.carousel-logo{
+	max-width:70%;
+	max-height:70%;
+}
+
+.carousel-message{
+	padding:1rem !important;
+}
+
+h2.text-center.text-lg.text-uppercase.my-0{
+	font-size:1.5rem;
+}
+
+
+
+
+@media screen and (min-width: 1173px){
+	.top-logo{ left: -22%; }
+
+}
+
+@media screen and (min-width: 1626px){
+	.top-logo{ left: -25%; }
+
+}
+
+@media screen and (min-width: 2300px){
+	.top-logo{ left: -27%; }
+
+}
